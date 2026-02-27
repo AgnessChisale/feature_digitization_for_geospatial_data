@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "feature_digitization_for_geospatial_data.html",
+    "href": "feature_digitization_for_geospatial_data.html",
+    "title": "Project 4: Version Control and Feature Digitization for Geospatial Data",
+    "section": "",
+    "text": "Github Repo\n\n\nThis project explores version control for geospatial data using Git and Kart, and practices feature digitization in both QGIS and ArcGIS Pro. Campus tree locations at UBC Vancouver were edited and validated against a recent orthophoto using Kart’s branching and merging capabilities. Five campus buildings were then manually digitized in ArcGIS Pro and compared against the official UBC building dataset to evaluate positional and geometric accuracy.\n\n\n\n\n\nConfigure Git and Kart for geospatial version control\nEdit and commit point feature changes using branching workflows\nManage and resolve merge conflicts between branches\nDigitize polygon features from an orthophoto in ArcGIS Pro\nEvaluate digitization accuracy against an official reference dataset\n\n\n\n\n\nData | Layer | Description | Source | |——-|————-|——–| | ubcv_campus_trees | Point layer of trees on UBC Vancouver campus | UBC PostgreSQL Server (ubcv database) | | UBC_ORTHOPHOTO_YEAR_COG.tif | Most recent UBC Vancouver orthophoto (Cloud Optimized GeoTiff) | MGEM Orthophoto Data Store | | ubcv_buildings | Official UBC Campus building polygons | UBC PostgreSQL Server (ubcv database) |\nTools | Tool | Purpose | |——|———| | Git | Distributed version control for file tracking | | Kart (QGIS plugin) | Version control extended to geospatial vector data | | QGIS | Editing point features and inspecting diffs | | ArcGIS Pro | Digitizing building polygons and geometry calculations |\n\n\n\n\nCampus tree points were imported into a local Kart repository and compared against a UBC orthophoto. Point locations were corrected and new trees were added through an editing session, with changes committed to version control. A separate branch was created to simulate collaborative editing, and a merge conflict was intentionally triggered and resolved. Five UBC buildings were then digitized as polygons in ArcGIS Pro using the orthophoto as a reference, and geometry metrics (area, perimeter, vertex count) were compared against the official UBC buildings dataset.\n📄 For a detailed breakdown of the methodology, click here\n\n\n\n\n\ndigitization_accuracy_map.pdf — Annotated map comparing digitized building vertices against the official UBC dataset, with discussion of accuracy implications\n\n\n\n\n\n\nCampus tree locations showed positional offsets from the orthophoto due to GPS error, data age, and canopy offset\nMerge conflicts arose when the same features were edited independently across two branches\nDigitized buildings deviated from the official dataset in area, perimeter, and vertex count, illustrating how vertex density and operator judgement affect positional accuracy\n\n\n\n\n\n\nConfiguring and using Git for version control\nImporting geospatial data into a Kart repository\nEditing point features in QGIS with version tracking\nCommitting changes and writing informative commit messages\nCreating and switching between branches in Kart\nResolving merge conflicts in geospatial data\nDigitizing polygon features from an orthophoto in ArcGIS Pro\nCalculating geometry metrics (area, perimeter, vertices) in ArcGIS Pro\nEvaluating digitization accuracy against a reference dataset"
+  },
+  {
+    "objectID": "feature_digitization_for_geospatial_data.html#overview",
+    "href": "feature_digitization_for_geospatial_data.html#overview",
+    "title": "Project 4: Version Control and Feature Digitization for Geospatial Data",
+    "section": "",
+    "text": "This project explores version control for geospatial data using Git and Kart, and practices feature digitization in both QGIS and ArcGIS Pro. Campus tree locations at UBC Vancouver were edited and validated against a recent orthophoto using Kart’s branching and merging capabilities. Five campus buildings were then manually digitized in ArcGIS Pro and compared against the official UBC building dataset to evaluate positional and geometric accuracy."
+  },
+  {
+    "objectID": "feature_digitization_for_geospatial_data.html#objectives",
+    "href": "feature_digitization_for_geospatial_data.html#objectives",
+    "title": "Project 4: Version Control and Feature Digitization for Geospatial Data",
+    "section": "",
+    "text": "Configure Git and Kart for geospatial version control\nEdit and commit point feature changes using branching workflows\nManage and resolve merge conflicts between branches\nDigitize polygon features from an orthophoto in ArcGIS Pro\nEvaluate digitization accuracy against an official reference dataset"
+  },
+  {
+    "objectID": "feature_digitization_for_geospatial_data.html#data-sources-tools",
+    "href": "feature_digitization_for_geospatial_data.html#data-sources-tools",
+    "title": "Project 4: Version Control and Feature Digitization for Geospatial Data",
+    "section": "",
+    "text": "Data | Layer | Description | Source | |——-|————-|——–| | ubcv_campus_trees | Point layer of trees on UBC Vancouver campus | UBC PostgreSQL Server (ubcv database) | | UBC_ORTHOPHOTO_YEAR_COG.tif | Most recent UBC Vancouver orthophoto (Cloud Optimized GeoTiff) | MGEM Orthophoto Data Store | | ubcv_buildings | Official UBC Campus building polygons | UBC PostgreSQL Server (ubcv database) |\nTools | Tool | Purpose | |——|———| | Git | Distributed version control for file tracking | | Kart (QGIS plugin) | Version control extended to geospatial vector data | | QGIS | Editing point features and inspecting diffs | | ArcGIS Pro | Digitizing building polygons and geometry calculations |"
+  },
+  {
+    "objectID": "feature_digitization_for_geospatial_data.html#methods",
+    "href": "feature_digitization_for_geospatial_data.html#methods",
+    "title": "Project 4: Version Control and Feature Digitization for Geospatial Data",
+    "section": "",
+    "text": "Campus tree points were imported into a local Kart repository and compared against a UBC orthophoto. Point locations were corrected and new trees were added through an editing session, with changes committed to version control. A separate branch was created to simulate collaborative editing, and a merge conflict was intentionally triggered and resolved. Five UBC buildings were then digitized as polygons in ArcGIS Pro using the orthophoto as a reference, and geometry metrics (area, perimeter, vertex count) were compared against the official UBC buildings dataset.\n📄 For a detailed breakdown of the methodology, click here"
+  },
+  {
+    "objectID": "feature_digitization_for_geospatial_data.html#outputs",
+    "href": "feature_digitization_for_geospatial_data.html#outputs",
+    "title": "Project 4: Version Control and Feature Digitization for Geospatial Data",
+    "section": "",
+    "text": "digitization_accuracy_map.pdf — Annotated map comparing digitized building vertices against the official UBC dataset, with discussion of accuracy implications"
+  },
+  {
+    "objectID": "feature_digitization_for_geospatial_data.html#key-findings",
+    "href": "feature_digitization_for_geospatial_data.html#key-findings",
+    "title": "Project 4: Version Control and Feature Digitization for Geospatial Data",
+    "section": "",
+    "text": "Campus tree locations showed positional offsets from the orthophoto due to GPS error, data age, and canopy offset\nMerge conflicts arose when the same features were edited independently across two branches\nDigitized buildings deviated from the official dataset in area, perimeter, and vertex count, illustrating how vertex density and operator judgement affect positional accuracy"
+  },
+  {
+    "objectID": "feature_digitization_for_geospatial_data.html#skills-learned",
+    "href": "feature_digitization_for_geospatial_data.html#skills-learned",
+    "title": "Project 4: Version Control and Feature Digitization for Geospatial Data",
+    "section": "",
+    "text": "Configuring and using Git for version control\nImporting geospatial data into a Kart repository\nEditing point features in QGIS with version tracking\nCommitting changes and writing informative commit messages\nCreating and switching between branches in Kart\nResolving merge conflicts in geospatial data\nDigitizing polygon features from an orthophoto in ArcGIS Pro\nCalculating geometry metrics (area, perimeter, vertices) in ArcGIS Pro\nEvaluating digitization accuracy against a reference dataset"
+  }
+]

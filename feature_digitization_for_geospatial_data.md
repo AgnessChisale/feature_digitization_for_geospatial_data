@@ -38,7 +38,7 @@ This project explores version control for geospatial data using Git and Kart, an
 ## Methods
 Campus tree points were imported into a local Kart repository and compared against a UBC orthophoto. Point locations were corrected and new trees were added through an editing session, with changes committed to version control. A separate branch was created to simulate collaborative editing, and a merge conflict was intentionally triggered and resolved. Five UBC buildings were then digitized as polygons in ArcGIS Pro using the orthophoto as a reference, and geometry metrics (area, perimeter, vertex count) were compared against the official UBC buildings dataset.
 
-📄 *For a detailed breakdown of the methodology, [click here](methodology.md)*
+📄 *For a detailed breakdown of the methodology, [click here](https://github.com/AgnessChisale/feature_digitization_for_geospatial_data/blob/main/methodology_project4.md)*
 
 ---
 
