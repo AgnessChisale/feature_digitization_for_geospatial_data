@@ -1,0 +1,5 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - feature_digitization_for_geospatial_data.md
